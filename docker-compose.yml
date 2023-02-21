@@ -1,0 +1,11 @@
+
+#DOCKER COMPOSE PADRAO
+
+# version: "3.7"
+
+# services:
+
+#   app:
+#     container_name: app
+#     build: .
+
