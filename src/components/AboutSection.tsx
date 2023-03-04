@@ -33,10 +33,7 @@ export const AboutSection = () => {
               Sobre mim
             </h1>
             <p>
-              Lorem ipsum <span className="font-bold">{"dolor"}</span> sit amet
-              consectetur adipisicing elit. Officia, ab libero. Beatae nam, quod
-              aliquam veniam alias soluta ducimus odio consectetur sequi
-              accusantium esse atque architecto cum mollitia laborum eveniet?
+              Olá, meu nome é Pedro Santana, <span className="font-bold">{"dolor"}</span>
             </p>
             <br />
             <p>
