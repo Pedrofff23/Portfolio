@@ -26,13 +26,13 @@ jobs:
         id: meta
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
         with:
-          images: pedrofff/site
+          images: pedrofff/portifolio
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
           context: .
           push: true
-          tags: pedrofff/site:latest
-          labels: site
+          tags: pedrofff/portifolio:latest
+          labels: portifolio
           
