@@ -10,7 +10,7 @@ const projetos = [
     descricao:
       "Um site feito para uma lava jato manter suas comandas e assinalas virtualmente",
     image:
-      "/MateoMMA_3d_baby_green_dinosaur_with_white_glasses_with_a_cap_w_15b47a1b-7b43-4f29-ab3f-903420b0cb16.png",
+      "/Lava_Jato.png",
     github: "https://github.com/OsCrias-ltda/Lava-Jato-UI",
     link: "https://pedrofff.dev",
   },
