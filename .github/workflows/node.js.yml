@@ -7,7 +7,7 @@ on:
 
 jobs:
   docker:
-    name: Login to Hub.docker
+    name: build da imagem e push para o docker hub
     runs-on: ubuntu-latest
     steps:
       - name: configurando QEMU
@@ -32,7 +32,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
+          platforms: linux/arm64
           push: true
           tags: pedrofff/portifolio:latest
-          labels: portifolio
-          
