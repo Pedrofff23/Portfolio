@@ -34,6 +34,7 @@ export const AboutSection = () => {
             </h1>
             <p>
               Olá, meu nome é Pedro Santana Mendes, <span className="font-bold">{"dolor"}</span>
+              
             </p>
             <br />
             <p>
