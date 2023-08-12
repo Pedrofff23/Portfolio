@@ -6,7 +6,7 @@ import SlideUp from "./SlideUp";
 
 const projetos = [
     {
-        nome: "Lava Jato",
+        nome: "Sistema de Comandas",
         descricao:
             "Um site feito para um lava jato cadastrar seus clientes, além de manter suas comandas e assinalas virtualmente.",
         image: "/Lava_Jato.png",
