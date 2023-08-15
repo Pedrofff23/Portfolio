@@ -10,26 +10,27 @@ function Notfound() {
     if(currentTheme === "dark"){
         currentTheme = "stone-900"
     }else{
-        currentTheme = "slate-100"
+        currentTheme = "white"
     }
-  
+
     useEffect(() => {
-      setMounted(true);
-    }, []);
+        setMounted(true);
+      }, []);
   
-    if (!mounted) {
-      return null;
-    }
-    
+      if (!mounted) {
+        return null;
+      }
+
     return (
         <div>
             <p className="zoom-area">A pagina que você procura não existe! </p>
             <section className="error-container">
                 <span className="four">
-                    <span className="screen-reader-text bg-stone-900 text-sla">4</span>
+                    <span className="screen-reader-text text-sla">4</span>
                 </span>
-                <span className={`zero after:bg-`+ currentTheme.toString()}>
-                    <span className="screen-reader-text">0</span>
+                <span className={`zero after:bg-` + currentTheme}>
+                    
+                    <span className={`screen-reader-text`}>0</span>
                 </span>
                 <span className="four">
                     <span className="screen-reader-text ">4</span>
