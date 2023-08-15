@@ -3,19 +3,20 @@ import { useEffect, useState } from "react";
 
 function Notfound() {
     const { systemTheme, theme, setTheme } = useTheme();
-    let currentTheme = theme === "system" ? systemTheme : theme;
-    const [navbar, setNavbar] = useState(false);
+    const currentTheme = theme === "system" ? systemTheme : theme;
     const [mounted, setMounted] = useState(false);
+    let cor
 
-    if(currentTheme === "dark"){
-        currentTheme = "stone-900"
+    if(currentTheme == "dark"){
+        cor = "stone-900"
     }else{
-        currentTheme = "white"
+        cor = "white"
     }
 
     useEffect(() => {
         setMounted(true);
-      }, []);
+
+      }, [currentTheme]);
   
       if (!mounted) {
         return null;
@@ -28,7 +29,7 @@ function Notfound() {
                 <span className="four">
                     <span className="screen-reader-text text-sla">4</span>
                 </span>
-                <span className={`zero after:bg-` + currentTheme}>
+                <span className={`zero after:bg-` + cor}>
                     
                     <span className={`screen-reader-text`}>0</span>
                 </span>
