@@ -13,6 +13,7 @@ const habilidades = [
     { habilidade: "Tailwind CSS" },
     { habilidade: "Git" },
     { habilidade: "GitHub" },
+    { habilidade: "CI/CD" },
 ];
 
 export const AboutSection = () => {

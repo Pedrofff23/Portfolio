@@ -42,9 +42,6 @@ COPY . .
 RUN npm run build \
     && npm prune --omit=dev
 
-##############################################
-
-
 FROM  --platform=linux/arm64 arm64v8/node:18-alpine
 
 WORKDIR /app
