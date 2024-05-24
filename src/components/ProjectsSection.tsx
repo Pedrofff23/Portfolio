@@ -11,7 +11,7 @@ const projetos = [
             "Um site feito para um lava jato cadastrar seus clientes, além de manter suas comandas e assinalas virtualmente.",
         image: "/Lava_Jato.png",
         github: "",
-        link: "https://lavajatodopedro.com",
+        link: "",
     },
     {
         nome: "Portfólio",
@@ -19,6 +19,14 @@ const projetos = [
         image: "/portfolio.png",
         github: "https://github.com/Pedrofff23/Portfolio",
         link: "https://pedrofff.dev",
+    },
+    {
+        nome: "Cria-Meet",
+        descricao:
+            "Um site para criar salas de reuniões e compartilhar o link com outras pessoas.",
+        image: "/cria-meet.png",
+        github: "https://github.com/Pedrofff23/cria-meet",
+        link: "https://cria-meet.vercel.app",
     },
 ];
 
