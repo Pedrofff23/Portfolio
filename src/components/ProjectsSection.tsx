@@ -18,7 +18,7 @@ const projetos = [
         descricao: "Este site para apresentar o meu portfólio.",
         image: "/portfolio.png",
         github: "https://github.com/Pedrofff23/Portfolio",
-        link: "https://pedrofff.dev",
+        link: "https://pedrofff.tech/",
     },
     {
         nome: "Cria-Meet",
