@@ -28,6 +28,14 @@ const projetos = [
         github: "https://github.com/Pedrofff23/cria-meet",
         link: "https://cria-meet.vercel.app",
     },
+    {
+        nome: "AnnoTations",
+        descricao:
+            "Um site para mostrar anotações feitas da faculdade, permitindo que qualquer pessoa que queira entrar nesse projeto possa compartilhar suas anotações e compartilhar o link com outras pessoas.",
+        image: "/annotations.png",
+        github: "",
+        link: "https://annotations.grupocrias.com/",
+    },
 ];
 
 export const ProjectsSection = () => {
