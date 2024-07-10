@@ -9,7 +9,7 @@ const projetos = [
         nome: "Sistema de Comandas",
         descricao:
             "Um site feito para um lava jato cadastrar seus clientes, além de criar, assinar virtualmente e exportar suas comandas e ter um deashboard para o controle de caixa de sua empresa.",
-        image: "/Lava_Jato.png",
+        image: "/lavajato.png",
         github: "",
         link: "",
     },
