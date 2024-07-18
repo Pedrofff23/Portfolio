@@ -8,14 +8,15 @@ const projetos = [
     {
         nome: "Sistema de Comandas",
         descricao:
-            "Um site feito para um lava jato cadastrar seus clientes, além de criar, assinar virtualmente e exportar suas comandas e ter um deashboard para o controle de caixa de sua empresa.",
+            "Um site feito para um lava jato cadastrar seus clientes, além de criar, assinar virtualmente e exportar suas comandas. Também foi feito um dashboard para o nosso cliente ter um maior controle do caixa de sua empresa.",
         image: "/lavajato.png",
         github: "",
         link: "",
     },
     {
         nome: "Associacão de Doulas de Goiás",
-        descricao: "Site feito para a Associação de Doulas de Goiás, com o intuito de apresentar o seu trabalho e realizar o controle de suas associadas.",
+        descricao:
+            "Site feito para a Associação de Doulas de Goiás, com o intuito de apresentar o seu trabalho e realizar o controle de suas associadas.",
         image: "/doulas.png",
         github: "",
         link: "https://adoulago.com",
