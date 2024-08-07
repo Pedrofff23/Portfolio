@@ -12,15 +12,15 @@ export const HeroSection = () => {
             >
                 <div className="md:mt-2 md:w-1/2">
                     <Image
-                        src="/eu_final.jpg"
+                        src="/Eu.jpg"
                         alt="Pedro Santana"
                         height={325}
-                        width={325}
+                        width={250}
                         className="rounded-full shadow-2xl"
                     />
                 </div>
                 <div className="md:mt-2 md:w-3/5">
-                    <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0 ">
+                    <h1 className="font-bold text-4xl mt-6 md:text-6xl md:mt-0 ">
                         Olá, me chamo Pedro Santana
                     </h1>
                     <p className="text-lg mt-4 mb-6 md:text-2xl">
