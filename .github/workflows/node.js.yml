@@ -36,4 +36,4 @@ jobs:
           context: .
           platforms: linux/arm64
           push: ${{ github.event_name == 'push' }}
-          tags: ${{ github.event_name == 'push' && format('{0}/portifolio:latest', secrets.DOCKER_USERNAME) || format('{0}/portifolio:pr', github.repository_owner) }}
+          tags: ${{ github.event_name == 'push' && format('{0}/portifolio:latest', secrets.DOCKER_USERNAME) || 'pedrofff23/portifolio:pr' }}
