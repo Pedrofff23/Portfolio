@@ -1,7 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineInstagram
 } from "react-icons/ai";
@@ -12,7 +12,7 @@ export const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Pedro Santana<a href="/" className="hover:underline"></a>
+          © 2023 Pedro Santana<Link href="/" className="hover:underline"></Link>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/Pedrofff23" rel="noreferrer" target="_blank">

@@ -1,10 +1,14 @@
+import Link from "next/link";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+const subscribe = () => () => {};
 
 function Notfound() {
-    const { systemTheme, theme, setTheme } = useTheme();
+    const { systemTheme, theme } = useTheme();
     const currentTheme = theme === "system" ? systemTheme : theme;
-    const [mounted, setMounted] = useState(false);
+    // true on the client, false during SSR — avoids a theme hydration mismatch
+    const mounted = useSyncExternalStore(subscribe, () => true, () => false);
     let cor
 
     if(currentTheme == "dark"){
@@ -13,10 +17,6 @@ function Notfound() {
         cor = "white"
     }
 
-    useEffect(() => {
-        setMounted(true);
-
-      }, [currentTheme]);
   
       if (!mounted) {
         return null;
@@ -40,12 +40,12 @@ function Notfound() {
             <div className="link-container">
                 <div className="flex justify-center">
                     <div className="px-4">
-                        <a
+                        <Link
                             href="/"
                             className="more-link "
                         >
                             Clique para voltar
-                        </a>
+                        </Link>
                     </div>
                     <a
                         target="_blank"

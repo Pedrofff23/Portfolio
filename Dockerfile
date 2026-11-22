@@ -28,7 +28,7 @@
 
 # Rapido
 ARG PLATFORM=linux/arm64
-ARG IMAGE=arm64v8/node:18-alpine
+ARG IMAGE=arm64v8/node:22-alpine
 
 FROM --platform=$PLATFORM $IMAGE AS build
 
@@ -42,7 +42,7 @@ COPY . .
 RUN npm run build \
     && npm prune --omit=dev
 
-FROM  --platform=linux/arm64 arm64v8/node:18-alpine
+FROM  --platform=linux/arm64 arm64v8/node:22-alpine
 
 WORKDIR /app
 
